@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.3">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="Visual_Search_Experiment" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <PolygonComponent name="s1_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s1_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s1_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s1_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s1_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s1_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(-0.6, 0.35)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s1_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s1_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s1_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s2_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s2_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s2_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s2_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s2_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s2_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(-0.6, 0.35)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s2_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s2_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s2_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s3_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s3_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s3_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s3_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s3_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s3_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s3_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s3_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s3_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="triangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s4_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s4_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s4_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s4_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s4_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s4_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.0, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s4_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s4_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s4_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s5_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s5_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s5_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s5_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s5_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s5_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s5_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s5_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s5_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s6_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s6_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s6_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s6_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s6_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s6_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="triangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s6_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s6_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s6_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s7_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s7_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s7_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s7_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s7_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s7_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s7_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s7_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s7_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s8_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s8_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s8_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s8_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s8_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s8_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s8_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s8_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s8_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s9_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s9_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s9_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s9_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s9_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s9_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s9_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s9_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s9_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s10_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s10_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s10_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s10_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s10_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s10_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s10_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s10_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s10_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s11_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s11_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s11_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s11_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s11_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s11_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s11_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s11_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="op_s11_bluecircle" valType="num" updates="set every repeat" name="ori"/>
+        <Param val="(0.2, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s12_target" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s12_target" valType="code" updates="None" name="name"/>
+        <Param val="op_s12_target" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="triangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s12_redsquare" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="red" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s12_redsquare" valType="code" updates="None" name="name"/>
+        <Param val="op_s12_redsquare" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="s12_bluecircle" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blue" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="blue" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="s12_bluecircle" valType="code" updates="None" name="name"/>
+        <Param val="op_s12_bluecircle" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.08, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <KeyboardComponent name="response" plugin="None">
+        <Param val="'f','j'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="correctAns" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="response" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <RoutineSettingsComponent name="Instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructionText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructionText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="             Visual Search Task&amp;#10;&amp;#10;You will see a group of coloured shapes on the screen.&amp;#10;&amp;#10;Your task is to decide whether a red circle is present.&amp;#10;- Press F if you see a red circle.&amp;#10;- Press J if you do not see a red circle.&amp;#10;Respond as quickly and accurately as possible.&amp;#10;&amp;#10;         Press the spacebar to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instructionKey" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instructionKey" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="End">
+      <RoutineSettingsComponent name="End" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="End" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="endroutine" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="endroutine" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating in this experiment!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(1)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(1)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(1)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(1)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(1)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(1)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(1)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(1)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(1)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(1)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(1)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(1)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(1)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(1)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(1)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(1)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(1)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(1)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(1)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(1)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(1)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(1)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(1)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(1)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(1)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(1)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(1)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(1)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(1)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(1)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(1)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(1))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(1)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(1)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(1)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(1)), ('op_s2_bluecircle', np.int64(0)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(1)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(1)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(12)), ('target_present', np.int64(1)), ('correctAns', 'f'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(1)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(1)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(1)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(1)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(1)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(0)), ('op_s10_bluecircle', np.int64(1)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(8)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(1)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(1)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(0)), ('op_s6_bluecircle', np.int64(1)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(1)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(1)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(1)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(0)), ('op_s12_bluecircle', np.int64(0))]), OrderedDict([('set_size', np.int64(4)), ('target_present', np.int64(0)), ('correctAns', 'j'), ('op_s1_target', np.int64(0)), ('op_s1_redsquare', np.int64(0)), ('op_s1_bluecircle', np.int64(0)), ('op_s2_target', np.int64(0)), ('op_s2_redsquare', np.int64(0)), ('op_s2_bluecircle', np.int64(1)), ('op_s3_target', np.int64(0)), ('op_s3_redsquare', np.int64(0)), ('op_s3_bluecircle', np.int64(0)), ('op_s4_target', np.int64(0)), ('op_s4_redsquare', np.int64(0)), ('op_s4_bluecircle', np.int64(0)), ('op_s5_target', np.int64(0)), ('op_s5_redsquare', np.int64(0)), ('op_s5_bluecircle', np.int64(0)), ('op_s6_target', np.int64(0)), ('op_s6_redsquare', np.int64(1)), ('op_s6_bluecircle', np.int64(0)), ('op_s7_target', np.int64(0)), ('op_s7_redsquare', np.int64(0)), ('op_s7_bluecircle', np.int64(0)), ('op_s8_target', np.int64(0)), ('op_s8_redsquare', np.int64(0)), ('op_s8_bluecircle', np.int64(0)), ('op_s9_target', np.int64(0)), ('op_s9_redsquare', np.int64(0)), ('op_s9_bluecircle', np.int64(0)), ('op_s10_target', np.int64(0)), ('op_s10_redsquare', np.int64(1)), ('op_s10_bluecircle', np.int64(0)), ('op_s11_target', np.int64(0)), ('op_s11_redsquare', np.int64(0)), ('op_s11_bluecircle', np.int64(0)), ('op_s12_target', np.int64(0)), ('op_s12_redsquare', np.int64(1)), ('op_s12_bluecircle', np.int64(0))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="/Users/anokhimavalankar/Downloads/conditions.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
